@@ -2,20 +2,36 @@ import java.util.List;
 
 public class ScholarAPIController {
     private final ScholarAPIModel model;
-    private final ScholarAPIView view;//se uso una clase privada final para que la clase sea especifica y no se extienda a las otras, se envapsula y solo las clases que la llamen pueden acceder a esta clase, mas rendimiento
+    private final ScholarAPIView view;
 
-    public ScholarAPIController(ScholarAPIModel model, ScholarAPIView view) {//el controlador como lo dice es un controlador de las otras clases y aqui se mandan llamar la clase de modelo y la de vista
+    public ScholarAPIController(ScholarAPIModel model, ScholarAPIView view) {
         this.model = model;
         this.view = view;
     }
 
     public void searchAuthorsByInstitution(String institution) {
         try {
-            List<String> authorIds = model.searchAuthorsByInstitution(institution);
-            view.displayAuthors(authorIds);
+            List<Autor> autores = model.searchAuthorsByInstitution(institution);
+            view.displayAuthors(autores);
+            saveAuthorsToDatabase(autores);
         } catch (Exception e) {
             System.out.println("Error al procesar la solicitud: " + e.getMessage());
         }
     }
+
+    private void saveAuthorsToDatabase(List<Autor> autores) {
+        // Aquí se implementaría la lógica para guardar los autores en una base de datos MySQL
+        // Utiliza la clase java.sql para conectarte a la base de datos y realizar la inserción
+        // Puedes consultar la documentación de java.sql para obtener más información sobre cómo realizar operaciones de base de datos
+    }
 }
+
+
+
+
+
+
+
+
+
 

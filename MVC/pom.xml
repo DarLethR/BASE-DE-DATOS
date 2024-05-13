@@ -20,7 +20,14 @@
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-      <version>20240303</version>
+      <version>20240303</version><!--Es importante saber la versión que se utilizara porque algunas antiguas marcan vulnerabilidades, tambien exiten distintos tipos de jsons gjson org.json, etc-->
+    </dependency>
+
+    <!-- Dependencia para MySQL Connector/J -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.28</version>
     </dependency>
 
     <!-- Dependencia para JUnit (pruebas unitarias) -->

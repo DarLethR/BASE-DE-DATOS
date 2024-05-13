@@ -1,33 +1,31 @@
-import java.util.Scanner;
 import java.util.List;
+import java.util.Scanner;
 
 public class ScholarAPIView {
     private ScholarAPIController controller;
 
     public ScholarAPIView() {
-    }//se declara la clase
+    }
 
     public void setController(ScholarAPIController controller) {
-        this.controller = controller;   //se manda llamar la clase api controler
+        this.controller = controller;
     }
 
     public void showMenu() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese el nombre de la institución:");//aqui se manda llamar la institución para poder buscar el autor
+        System.out.println("Ingrese el nombre de la institución:");
         String institution = scanner.nextLine();
         controller.searchAuthorsByInstitution(institution);
     }
 
-    public void displayAuthors(List<String> authorIds) {
-        if (!authorIds.isEmpty()) {//aqui se checan si existen los autores o no
-            System.out.println("Los IDs de los autores son:");
-            for (String authorId : authorIds) {
-                System.out.println(authorId);
+    public void displayAuthors(List<Autor> autores) {
+        if (!autores.isEmpty()) {
+            System.out.println("Los IDs y nombres de los autores son:");
+            for (Autor autor : autores) {
+                System.out.println("ID: " + autor.getId() + ", Nombre: " + autor.getNombre());
             }
         } else {
             System.out.println("No se encontraron autores asociados a la institución especificada.");
         }
     }
 }
-
-
