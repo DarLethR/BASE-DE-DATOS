@@ -13,7 +13,7 @@ public class ScholarAPIModel {
         List<String> authorIds = new ArrayList<>();//aqui se declaran las variables, que se usaran en la concatenación de más adelante
 
         // Construir la URL de la API de SERPAPI para buscar perfiles de autores en Google Scholar Profiles, se elijio esta opción porque busvca mas especificamente
-        String apiKey = "a9a945ad10658007397c46b8e7f9142301b9574e26aecaadf433f0f2b95cb3ac";//Aqui se agrega la API key personal que tenemos en el Serp API que es lo que hace que se conecte al SERPAPI
+        String apiKey = "b2c23759ba0f1cca86c6f38b558802507c43c17a20157fdc05bc6a5582338780";//Aqui se agrega la API key personal que tenemos en el Serp API que es lo que hace que se conecte al SERPAPI
         String url = "https://serpapi.com/search?engine=google_scholar_profiles&mauthors=" + institution + "&api_key=" + apiKey;//Se eligio mauthor en lugar del de autores normal, porque se detecto que este, da mejores resultados he incluso soporta mas cantidad de autores, aunque en esta ocasión solo se piden los primeros 10
 
 
