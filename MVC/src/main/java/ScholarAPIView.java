@@ -1,3 +1,4 @@
+// ScholarAPIView.java
 import java.util.List;
 import java.util.Scanner;
 
@@ -25,7 +26,7 @@ public class ScholarAPIView {
                 System.out.println("ID: " + autor.getId() + ", Nombre: " + autor.getNombre());
             }
         } else {
-            System.out.println("No se encontraron autores asociados a la institución especificada.");
+            System.out.println("si ");
         }
     }
 }

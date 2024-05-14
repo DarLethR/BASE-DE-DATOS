@@ -1,3 +1,4 @@
+// Autor.java
 public class Autor {
     private String id;
     private String nombre;
@@ -15,4 +16,3 @@ public class Autor {
         return nombre;
     }
 }
-

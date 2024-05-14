@@ -1,3 +1,6 @@
+// ScholarAPIController.java
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 
 public class ScholarAPIController {
@@ -13,18 +16,25 @@ public class ScholarAPIController {
         try {
             List<Autor> autores = model.searchAuthorsByInstitution(institution);
             view.displayAuthors(autores);
-            saveAuthorsToDatabase(autores);
+            saveAuthorsToSQLFile(autores);
         } catch (Exception e) {
             System.out.println("Error al procesar la solicitud: " + e.getMessage());
         }
     }
 
-    private void saveAuthorsToDatabase(List<Autor> autores) {
-        // Aquí se implementaría la lógica para guardar los autores en una base de datos MySQL
-        // Utiliza la clase java.sql para conectarte a la base de datos y realizar la inserción
-        // Puedes consultar la documentación de java.sql para obtener más información sobre cómo realizar operaciones de base de datos
+    private void saveAuthorsToSQLFile(List<Autor> autores) {
+        try (FileWriter writer = new FileWriter("autores.sql")) {
+            for (Autor autor : autores) {
+                writer.write("INSERT INTO autores (id, nombre) VALUES ('" + autor.getId() + "', '" + autor.getNombre() + "');\n");
+            }
+            System.out.println("Los datos se han guardado correctamente en el archivo autores.sql.");
+        } catch (IOException e) {
+            System.out.println("Error al guardar los datos en el archivo SQL: " + e.getMessage());
+        }
     }
 }
+
+
 
 
 
