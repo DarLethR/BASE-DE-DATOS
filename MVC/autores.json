@@ -1,0 +1,266 @@
+{
+  "search_metadata": {
+    "id": "6642b6b7aa6c953041d25720",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/4043e6ea3d101a03/6642b6b7aa6c953041d25720.json",
+    "created_at": "2024-05-14 00:56:23 UTC",
+    "processed_at": "2024-05-14 00:56:23 UTC",
+    "google_scholar_profiles_url": "https://scholar.google.com/citations?mauthors=unam&view_op=search_authors&hl=en",
+    "raw_html_file": "https://serpapi.com/searches/4043e6ea3d101a03/6642b6b7aa6c953041d25720.html",
+    "total_time_taken": 1.71
+  },
+  "search_parameters": {
+    "engine": "google_scholar_profiles",
+    "mauthors": "unam",
+    "hl": "en"
+  },
+  "profiles": [
+    {
+      "name": "Rafael Lozano",
+      "link": "https://scholar.google.com/citations?hl=en&user=7Fl-fjIAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=7Fl-fjIAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "7Fl-fjIAAAAJ",
+      "affiliations": "Professor, University of Washington Institute for Health Metrics and Evaluation, UNAM FAC …",
+      "email": "Verified email at uw.edu",
+      "cited_by": 242953,
+      "interests": [
+        {
+          "title": "Health Metrics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ahealth_metrics",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:health_metrics"
+        },
+        {
+          "title": "Global Health",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aglobal_health",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:global_health"
+        },
+        {
+          "title": "Burden of Disease",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aburden_of_disease",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:burden_of_disease"
+        },
+        {
+          "title": "Latin America",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Alatin_america",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:latin_america"
+        },
+        {
+          "title": "Mexico",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amexico",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:mexico"
+        }
+      ],
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=7Fl-fjIAAAAJ&citpid=2"
+    },
+    {
+      "name": "Leonid Serkin",
+      "link": "https://scholar.google.com/citations?hl=en&user=fKlpWLcAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=fKlpWLcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "fKlpWLcAAAAJ",
+      "affiliations": "Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de México",
+      "email": "Verified email at correo.nucleares.unam.mx",
+      "cited_by": 179759,
+      "interests": [
+        {
+          "title": "Particle physics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aparticle_physics",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:particle_physics"
+        }
+      ],
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=fKlpWLcAAAAJ&citpid=1"
+    },
+    {
+      "name": "Jens Erler",
+      "link": "https://scholar.google.com/citations?hl=en&user=v-O_eLkAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=v-O_eLkAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "v-O_eLkAAAAJ",
+      "affiliations": "Professor of Physics, IF-UNAM",
+      "email": "Verified email at fisica.unam.mx",
+      "cited_by": 116801,
+      "interests": [
+        {
+          "title": "Elementary Particle Physics Theory",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aelementary_particle_physics_theory",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:elementary_particle_physics_theory"
+        }
+      ],
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Varlen Grabski",
+      "link": "https://scholar.google.com/citations?hl=en&user=jemM2woAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=jemM2woAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "jemM2woAAAAJ",
+      "affiliations": "Universidad Nacional Autonoma de Mexico",
+      "email": "Verified email at fisica.unam.mx",
+      "cited_by": 94314,
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=jemM2woAAAAJ&citpid=1"
+    },
+    {
+      "name": "Guy Paic",
+      "link": "https://scholar.google.com/citations?hl=en&user=p4u_gj4AAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=p4u_gj4AAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "p4u_gj4AAAAJ",
+      "affiliations": "profesor fisica",
+      "email": "Verified email at nucleares.unam.mx",
+      "cited_by": 91206,
+      "interests": [
+        {
+          "title": "fisiaca de particulas",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Afisiaca_de_particulas",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:fisiaca_de_particulas"
+        }
+      ],
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Antonio Ortiz",
+      "link": "https://scholar.google.com/citations?hl=en&user=4qcXFLYAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=4qcXFLYAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "4qcXFLYAAAAJ",
+      "affiliations": "Associate professor, Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de …",
+      "email": "Verified email at nucleares.unam.mx",
+      "cited_by": 79040,
+      "interests": [
+        {
+          "title": "Heavy-ion physics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aheavy_ion_physics",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:heavy_ion_physics"
+        }
+      ],
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=4qcXFLYAAAAJ&citpid=14"
+    },
+    {
+      "name": "Arturo Menchaca Rocha",
+      "link": "https://scholar.google.com/citations?hl=en&user=WspRqEAAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=WspRqEAAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "WspRqEAAAAAJ",
+      "affiliations": "Professor of Physics, UNAM",
+      "email": "Verified email at fisica.unam.mx",
+      "cited_by": 77906,
+      "interests": [
+        {
+          "title": "Nuclear physics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Anuclear_physics",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:nuclear_physics"
+        },
+        {
+          "title": "nuclear instrumentation",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Anuclear_instrumentation",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:nuclear_instrumentation"
+        },
+        {
+          "title": "cosmic rays",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acosmic_rays",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:cosmic_rays"
+        },
+        {
+          "title": "muon-imaging",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amuon_imaging",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:muon_imaging"
+        },
+        {
+          "title": "liquid drops",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aliquid_drops",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:liquid_drops"
+        }
+      ],
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=WspRqEAAAAAJ&citpid=2"
+    },
+    {
+      "name": "Eleazar Cuautle Flores",
+      "link": "https://scholar.google.com/citations?hl=en&user=TQtTWDUAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=TQtTWDUAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "TQtTWDUAAAAJ",
+      "affiliations": "Professor at ICN-UNAM",
+      "email": "Verified email at nucleares.unam.mx",
+      "cited_by": 65951,
+      "interests": [
+        {
+          "title": "Physics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aphysics",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:physics"
+        }
+      ],
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Ernesto Belmont Moreno",
+      "link": "https://scholar.google.com/citations?hl=en&user=W2u_A-UAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=W2u_A-UAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "W2u_A-UAAAAJ",
+      "affiliations": "Investigador del Instituto de Física, Universidad Nacional Autónoma de México",
+      "email": "Verified email at fisica.unam.mx",
+      "cited_by": 58906,
+      "interests": [
+        {
+          "title": "Física nuclear",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Af%C3%ADsica_nuclear",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:f%C3%ADsica_nuclear"
+        },
+        {
+          "title": "Astrofísica",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aastrof%C3%ADsica",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:astrof%C3%ADsica"
+        },
+        {
+          "title": "Computación",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputaci%C3%B3n",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:computaci%C3%B3n"
+        },
+        {
+          "title": "Inteligencia artificial",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ainteligencia_artificial",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:inteligencia_artificial"
+        },
+        {
+          "title": "Astronomía",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aastronom%C3%ADa",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:astronom%C3%ADa"
+        }
+      ],
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Graciela B. Raga",
+      "link": "https://scholar.google.com/citations?hl=en&user=jQ4eHjIAAAAJ",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=jQ4eHjIAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "jQ4eHjIAAAAJ",
+      "affiliations": "Senior Scientist, Instituto de Ciencias de la Atmosfera y Cambio Climatico, UNAM",
+      "email": "Verified email at unam.mx",
+      "cited_by": 55034,
+      "interests": [
+        {
+          "title": "Aerosol and cloud physics",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aaerosol_and_cloud_physics",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:aerosol_and_cloud_physics"
+        },
+        {
+          "title": "meteorology and air pollution",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ameteorology_and_air_pollution",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:meteorology_and_air_pollution"
+        },
+        {
+          "title": "short-lived-climate pollutants",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ashort_lived_climate_pollutants",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:short_lived_climate_pollutants"
+        },
+        {
+          "title": "cloud dynamics and electrification",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acloud_dynamics_and_electrification",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:cloud_dynamics_and_electrification"
+        },
+        {
+          "title": "tr",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Atr",
+          "link": "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:tr"
+        }
+      ],
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=jQ4eHjIAAAAJ&citpid=3"
+    }
+  ],
+  "pagination": {
+    "next": "https://serpapi.com/search.json?after_author=J4wtAAMp__8J&engine=google_scholar_profiles&hl=en&mauthors=unam",
+    "next_page_token": "J4wtAAMp__8J"
+  }
+}
