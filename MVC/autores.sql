@@ -1,5 +1,3 @@
-INSERT INTO search_metadata (id, status, json_endpoint, created_at, processed_at, google_scholar_profiles_url, raw_html_file, total_time_taken)
-VALUES ('6642b6b7aa6c953041d25720', 'Success', 'https://serpapi.com/searches/4043e6ea3d101a03/6642b6b7aa6c953041d25720.json', '2024-05-14 00:56:23', '2024-05-14 00:56:23', 'https://scholar.google.com/citations?mauthors=unam&view_op=search_authors&hl=en', 'https://serpapi.com/searches/4043e6ea3d101a03/6642b6b7aa6c953041d25720.html', 1.71);
 CREATE TABLE search_metadata (
     id VARCHAR(50) PRIMARY KEY,
     status VARCHAR(20),
